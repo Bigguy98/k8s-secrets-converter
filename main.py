@@ -42,12 +42,12 @@ root = tk.Tk()
 root.title("K8s Secret Converter")
 
 # Create input and output text fields
-input_label = tk.Label(root, text="Input YAML")
+input_label = tk.Label(root, text="Input Secret YAML")
 input_label.pack()
 input_text = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=80, height=20)
 input_text.pack(pady=10)
 
-output_label = tk.Label(root, text="Output YAML")
+output_label = tk.Label(root, text="Output Secret YAML")
 output_label.pack()
 output_text = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=80, height=20)
 output_text.pack(pady=10)
