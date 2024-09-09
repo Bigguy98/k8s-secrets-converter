@@ -1,3 +1,10 @@
+## Overview
+This project build a desktop application for encoding/decoding k8s secret data.
+
+
+https://github.com/user-attachments/assets/30f4f6e0-d1fb-46f9-8b3b-416cf93e20db
+
+
 ## How to run
 
 **Create python virtual environment**
@@ -10,6 +17,7 @@ python -m venv converter
 source converter/Scripts/activate
 ```
 
+Or if you're using Powershell
 ```Powershell
 .\converter\Scripts\Activate.ps1
 ```
@@ -88,4 +96,5 @@ pyinstaller main.spec
 ```
 
 After this step, K8sSecretConverter.exe file will be created at `./dist` folder
-You can run K8sSecretConverter.exe file directly. 
+
+You can run K8sSecretConverter.exe file by clicking on it.
